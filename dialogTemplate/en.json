@@ -1,7 +1,92 @@
 {
     "skill": "GeneralChat",
     "icon": "time",
-    "description": "Adds some more everydaychat to alice",
-    "slotTypes": [],
-    "intents": []
+    "description": "Adds some more every day chat to Alice",
+    "slotTypes": [
+	  	{
+			"name": "Greetings",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+			  	{
+					"value": "Hello",
+					"synonyms": [
+						"hi",
+					    "Hi there",
+					  	"aloha",
+					  	"Gday",
+					  	"gid day"
+					]
+				}
+			]
+		},
+	  	{
+			"name": "howsAlice",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+			  	{
+					"value": "How you doing",
+					"synonyms": [
+						"how are you",
+					    "How's things",
+					  	"hows it going",
+					  	"you going ok",
+					  	"are you feeling ok",
+					  	"are you doing ok"
+					]
+				}
+			]
+		}
+	],
+    "intents": [
+		{
+			"name": "sayGreeting",
+		  	"description": "Say a greeting to alice",
+		  	"enabledByDefault": true,
+		  	"utterances": [
+				"{hello:=>Greetings}",
+				"{hi there:=>Greetings} alice",
+				"{gday:=>Greetings} Alice",
+				"{gid day:=>Greetings} Alice",
+				"{Hi:=>Greetings} alice",
+				"{Aloha:=>Greetings}",
+				"{hello:=>Greetings} to you Alice"
+		  	],
+		  	"slots": [
+				{
+			  		"name": "Greetings",
+			  		"description": null,
+			  		"required": false,
+			  		"type": "Greetings",
+			  		"missingQuestion": ""
+				}
+		  	]
+		},
+	  	{
+			"name": "feelingState",
+		  	"description": "Ask how alice is feeling",
+		  	"enabledByDefault": true,
+		  	"utterances": [
+				"{how you doing:=>feelings}",
+				"{how you going:=>feelings} alice",
+				"{are you feeling ok:=>feelings} Alice",
+				"{hows things:=>feelings} in the world of alice ",
+				"{hows things:=>feeling} with you",
+				"{hows it going:=>feelings} Alice",
+				"{are you doing ok:=>feelings} to you Alice"
+		  	],
+		  	"slots": [
+				{
+			  		"name": "feelings",
+			  		"description": null,
+			  		"required": false,
+			  		"type": "howsAlice",
+			  		"missingQuestion": ""
+				}
+		  	]
+		}
+	]
 }

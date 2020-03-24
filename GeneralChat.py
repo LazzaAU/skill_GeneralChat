@@ -6,9 +6,15 @@ from core.util.Decorators import IntentHandler
 class GeneralChat(AliceSkill):
 	"""
 	Author: LazzaAU
-	Description: Adds some more everydaychat to alice
+	Description: Adds some more every day chat to alice
 	"""
 
-	@IntentHandler('MyIntentName')
-	def dummyIntent(self, session: DialogSession, **_kwargs):
-		pass
+
+	@IntentHandler('sayGreeting')
+	def saygreetingIntent(self, session: DialogSession):
+		self.endDialog(sessionId=session.sessionId, text=self.randomTalk('respondHello'), siteId=session.siteId)
+
+	@IntentHandler('sayFeelings')
+	def sayfeelingIntent(self, session: DialogSession):
+		self.endDialog(sessionId=session.sessionId, text=self.randomTalk('respondFeeling'), siteId=session.siteId)
+

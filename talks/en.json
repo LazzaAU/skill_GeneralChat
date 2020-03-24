@@ -1,1 +1,15 @@
-{}
+{
+	"respondHello": [
+		"Hello",
+	  	"gidday mate. said in my best australian accent",
+	  	"hi there",
+	  	"aloha",
+	  	"hi ya, hope your well"
+	],
+  	"respondFeeling": [
+		"I'm doing good, thanks for asking",
+	  	"my circuits are flowing with excitement",
+	  	"If i was any happier you'd think i've been drinking capacitor juice",
+	  	"A power surge is the only thing that can bring me down now"
+	]
+}
