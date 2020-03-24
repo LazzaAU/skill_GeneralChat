@@ -1,0 +1,7 @@
+{
+    "skill": "GeneralChat",
+    "icon": "time",
+    "description": "Adds some more everydaychat to alice",
+    "slotTypes": [],
+    "intents": []
+}
