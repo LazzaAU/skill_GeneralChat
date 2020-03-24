@@ -1,11 +1,11 @@
 {
     "name": "GeneralChat",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "fab fa-battle-net",
     "category": "undefined",
     "author": "LazzaAU",
     "maintainers": [],
-    "desc": "Adds some more everydaychat to alice",
+    "desc": "Adds some more every day chat to alice",
     "aliceMinVersion": "1.0.0-b1",
     "systemRequirements": [
         ""
