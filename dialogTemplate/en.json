@@ -74,7 +74,7 @@
 				"{how you going:=>feelings} alice",
 				"{are you feeling ok:=>feelings} Alice",
 				"{hows things:=>feelings} in the world of alice ",
-				"{hows things:=>feeling} with you",
+				"{hows things:=>feelings} with you",
 				"{hows it going:=>feelings} Alice",
 				"{are you doing ok:=>feelings} to you Alice"
 		  	],
