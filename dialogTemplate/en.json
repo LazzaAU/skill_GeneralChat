@@ -76,7 +76,7 @@
 				"{hows things:=>feelings} in the world of alice ",
 				"{hows things:=>feelings} with you",
 				"{hows it going:=>feelings} Alice",
-				"{are you doing ok:=>feelings} to you Alice"
+			  	"{are you doing ok:=>feelings} to you Alice"
 		  	],
 		  	"slots": [
 				{
