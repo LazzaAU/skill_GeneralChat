@@ -22,4 +22,8 @@ class GeneralChat(AliceSkill):
 	def saygreetingIntent(self, session: DialogSession):
 		self.endDialog(session.sessionId, self.randomTalk(text='respondStop'))
 
+	@IntentHandler('AliceDoingWhat')
+	def saywhatshesuptoIntent(self, session: DialogSession):
+		self.endDialog(session.sessionId, self.randomTalk(text='respondWhatsup'))
+
 

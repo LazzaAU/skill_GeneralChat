@@ -100,6 +100,19 @@
 				"Don't worry about it",
 				"Go to sleep"
 			]
+		},
+	  	{
+			"name": "AliceDoingWhat",
+		  	"description": "Say something what shes up to",
+		  	"enabledByDefault": true,
+		  	"utterances": [
+				"What's up",
+			  	"What are you up too",
+				"What's happening in your world",
+				"Is alice in wonderland",
+				"are you there",
+				"are you listening to me"
+			]
 		}
 	]
 }

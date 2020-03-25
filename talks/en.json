@@ -21,5 +21,13 @@
 	  	"Roger that. Over and out",
 	  	"no problem, i need to pop out for a second anyway",
 	  	"Sure"
+	],
+  	"respondWhatsup": [
+		"I'm just waiting here like a loyal servant for your commands",
+	  	"I'm reading web pages. Weird thing is i started looking up physics papers now i'm watching cat video's ",
+	  	"I'm in da hood bro, waiting for you to give me something to do",
+	  	"I'm just listening to music quietly. I can sing it if you like. Chicken in the corn but the corn can't grow mumma",
+	  	"I'm checking my circuit boards for dust molecules",
+	  	"I'm just happily playing cards with my AI friends until you call me"
 	]
 }
