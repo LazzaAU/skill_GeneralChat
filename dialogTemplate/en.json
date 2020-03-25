@@ -87,6 +87,18 @@
 			  		"missingQuestion": ""
 				}
 		  	]
+		},
+	  	{
+			"name": "stopAlice",
+		  	"description": "Say something to stop alice",
+		  	"enabledByDefault": true,
+		  	"utterances": [
+				"Never mind",
+				"Forget it",
+				"Don't worry",
+				"Don't worry about it",
+				"Go to sleep"
+			]
 		}
 	]
 }

@@ -2,7 +2,7 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_GeneralChat/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_GeneralChat/pipelines/latest)
 
-Adds some more everydaychat to alice
+Adds some more every day chat to alice
 
 - Author: LazzaAU
 - Maintainers: 
