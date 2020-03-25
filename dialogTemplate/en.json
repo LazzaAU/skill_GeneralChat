@@ -93,7 +93,8 @@
 		  	"description": "Say something to stop alice",
 		  	"enabledByDefault": true,
 		  	"utterances": [
-				"Never mind",
+				"Nevermind",
+			  	"Never mind",
 				"Forget it",
 				"Don't worry",
 				"Don't worry about it",
